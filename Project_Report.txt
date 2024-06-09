@@ -1,0 +1,80 @@
+Date: [9/6/2024]
+
+1. Overview:
+
+This report provides an overview of the financial statement classification system developed for [Client Name].
+
+2. Objective:
+
+The objective of this project was to develop a machine learning model capable of automatically classifying financial statements into different categories based on their content.
+
+3. Data Extraction:
+
+The data used for training and testing the model were extracted from HTML files containing financial statements. The following categories were considered:
+
+Income Statements
+Balance Sheets
+Cash Flows
+Notes
+Others
+
+4. Data Preprocessing:
+
+Before training the model, the following preprocessing steps were applied to the text data extracted from the HTML files:
+
+Tokenization
+Removal of stopwords
+Lemmatization
+Vectorization using TF-IDF
+
+5. Model Training:
+
+A Logistic Regression model was trained using the preprocessed text data and TF-IDF vectors. The model achieved an accuracy of [Insert Accuracy] on the test dataset.
+
+6. Evaluation:
+
+The performance of the model was evaluated using the following metrics:
+
+Classification_report:
+[Accuracy: 0.9405940594059405
+Classification Report:
+                    precision    recall  f1-score   support
+
+   Balance Sheets       1.00      1.00      1.00        58
+       Cash Flows       1.00      0.88      0.93         8
+Income Statements       0.90      0.91      0.90        57
+            Notes       0.92      0.89      0.91       123
+           Others       0.94      0.96      0.95       259
+
+         accuracy                           0.94       505
+        macro avg       0.95      0.93      0.94       505
+     weighted avg       0.94      0.94      0.94       505]
+
+7. Streamlit Application:
+
+A Streamlit application was developed to allow users to upload HTML files containing financial statements and classify the tables within them. The application can be accessed via the following link: [Insert Streamlit Application URL]
+
+8. Conclusion:
+
+The developed classification system demonstrates promising performance in automatically categorizing financial statements. It provides a convenient tool for analyzing and organizing financial data efficiently.
+
+9. Recommendations:
+
+Based on the results obtained, the following recommendations are suggested:
+
+Further refinement of the model to improve classification accuracy.
+Integration of additional features or data sources to enhance the classification system.
+Regular monitoring and updating of the system to adapt to changes in financial reporting standards.
+10. Next Steps:
+
+Future steps for this project may include:
+
+Conducting additional testing and validation on diverse datasets.
+Exploring alternative machine learning algorithms for classification.
+Incorporating user feedback to enhance the usability of the Streamlit application.
+11. Contact Information:
+
+For further inquiries or assistance, please contact:
+[E-mail:chrthan1234@gmail.com    contact_no:7026838990]
+
+This report provides an overview of the financial statement classification system developed for [FinacPlus]. 
